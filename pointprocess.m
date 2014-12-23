@@ -5,6 +5,8 @@ function Criticality = pointprocess( inputdata, varargin )
 
 % e.g. pointprocess( inputdata )
 
+% did this work
+
 % Name-value pair input arguments:
 
 % 'sdthresh': the threshold to be used in units of standard deviation
