@@ -5,7 +5,7 @@ function Criticality = pointprocess( inputdata, varargin )
 
 % e.g. pointprocess( inputdata )
 
-%koala
+%koala2
 
 % Name-value pair input arguments:
 
