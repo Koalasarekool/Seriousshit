@@ -5,8 +5,6 @@ function Criticality = pointprocess( inputdata, varargin )
 
 % e.g. pointprocess( inputdata )
 
-%koala2
-
 % Name-value pair input arguments:
 
 % 'sdthresh': the threshold to be used in units of standard deviation
@@ -45,7 +43,7 @@ validationFcn = @(x) assert(isnumeric(x) && isscalar(x) ...
     ,errorStr);
 addParameter(p,paramName1,default1,validationFcn);
 
-paramName2 = 'abs'; % take absolute value of dat
+paramName2 = 'abs'; % take absolute value of data
 default2 = 'off';
 errorStr = 'Value must be either "on" or "off"';
 validationFcn = @(x) assert(max(strcmpi(x,{'on','off'})), errorStr);
